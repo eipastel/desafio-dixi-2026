@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dixi - Bater Ponto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Open Sans"', 'sans-serif'],
+            },
+            colors: {
+              dixi: {
+                base: '#3379BC',
+                hover: '#40A5DD',
+                light: '#C8E5F4',
+                bg: '#FFFFFF',
+                bg2: '#F9FAFA',
+                outline: '#EBEDEE',
+                disabled: '#C8C8C8',
+                placeholder: '#AFAFAF',
+                fieldTitle: '#9B9B9B',
+                body: '#7A7A7A',
+                tooltip: '#525252',
+                highlight: '#000000',
+              }
+            },
+            fontSize: {
+              'page-title': ['35px', { lineHeight: '1.2', fontWeight: '700' }],
+              'modal-title': ['20px', { lineHeight: '1.2', fontWeight: '700' }],
+              'subtitle': ['16px', { lineHeight: '1.2', fontWeight: '600' }],
+              'btn-text': ['14px', { lineHeight: '1.2', fontWeight: '700' }],
+              'field-text': ['14px', { lineHeight: '1.2', fontWeight: '400' }],
+              'field-label': ['10px', { lineHeight: '1.2', fontWeight: '600' }],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        background-color: #F9FAFA;
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

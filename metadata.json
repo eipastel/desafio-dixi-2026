@@ -1,0 +1,7 @@
+{
+  "name": "Dixi Ponto Web UI",
+  "description": "A high-fidelity React implementation of the Bater Ponto screen following specific UI guidelines and color tokens.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
